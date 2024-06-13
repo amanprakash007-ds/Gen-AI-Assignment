@@ -1,0 +1,8 @@
+﻿1. Can algorithms like SMOTE/ROSE which synthesize new examples from the training data be called Generative AI?
+
+
+No, algorithms like SMOTE/ROSE which synthesize new examples from the training data can’t be called Generative AI. Techniques like SMOTE (Synthetic Minority Over-sampling Technique) and ROSE (Random Over-Sampling Examples) are designed to address class imbalances by creating new data points from the existing training dataset.
+SMOTE and ROSE:
+Objective: The main goal of SMOTE and ROSE is to reduce class imbalance by generating synthetic instances to enhance the minority class.
+Process: These methods produce new samples by interpolating between existing minority class examples (in the case of SMOTE) or by sampling from a smoothed feature space (as with ROSE).
+Scope: Unlike GANs or VAEs, which can generate instances that belong to entirely new categories or exhibit complex dependencies, SMOTE and ROSE are specifically targeted at solving the predefined issue of class imbalance.
